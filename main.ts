@@ -1,5 +1,4 @@
 import express, { Request, Response } from "express";
-import { request } from "http";
 import VoiceResponse from "twilio/lib/twiml/VoiceResponse";
 const accountSid = "AC5ebcbf56bb7d8db152f8338b1f271293";
 const authToken = "63b93b488742cab113a542bead3d725e";
@@ -12,7 +11,7 @@ let callSid: string | undefined = undefined;
 app.use(express.urlencoded());
 
 app.get("/", (request: Request, response: Response) => {
-  return "server up";
+  response.send("server up");
 });
 
 app.post("/", (request: Request, response: Response) => {
