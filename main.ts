@@ -1,4 +1,4 @@
-import express, { Express, Request, Response } from "express";
+import express, { Request, Response } from "express";
 import VoiceResponse from "twilio/lib/twiml/VoiceResponse";
 const accountSid = "AC5ebcbf56bb7d8db152f8338b1f271293";
 const authToken = "63b93b488742cab113a542bead3d725e";
