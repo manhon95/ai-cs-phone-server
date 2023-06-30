@@ -1,0 +1,21 @@
+{
+  "name": "twiliodemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "twilio": "^4.11.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
